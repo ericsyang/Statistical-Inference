@@ -88,6 +88,7 @@ ggplot(data = expMatrix, aes(x = x)) +
   stat_function(fun = dnorm, args = list(mean = tMeanExp, sd = sd(expMatrix$x)))
 ```
 ![distribution](./Rplot.png)
+
 The averages of samples will follow a normal distribution. The ploting above shows the distribution is approximately normal.
 
 
